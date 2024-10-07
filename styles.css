@@ -9,9 +9,11 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif, Arial, Arial, Helvetica;
 
 }
+
+
 
 #app-ideation{
     margin-bottom: 1000px;
@@ -136,7 +138,7 @@ li a {
     font-size: 2.375rem;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
-    color: rgba(0, 0, 0, 0.833);
+    color: #1a093f;
     line-height: 100px;
     letter-spacing: 2px;
     line-height: 50px;
@@ -146,7 +148,7 @@ li a {
     font-size: 23px;
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
-    color: rgb(74, 74, 74);
+    color: #535353;
     font-weight: 300;
 }
 
@@ -184,6 +186,7 @@ li a {
     width: 350px;
     height: auto;
     border-radius: 10px;
+    box-shadow: 10px 20px 50px rgb(0, 0, 0)
 }
 
 [data-tilt] {
@@ -199,14 +202,14 @@ li a {
 }
 
 #category-links li a {
-    color: #3b3b3b; /* Default color, adjust as needed */
+    color: #1a093f; /* Default color, adjust as needed */
     transition: color 0.3s ease, background-color 0.3s ease, padding 0.3s ease;
     padding: 10px;
 }
 
 #category-links li a.active {
-    color: orange; /* Color when active */
-    background-color: rgba(255, 165, 0, 0.1); /* Light orange background */
+    color: #941454; /* Color when active */
+    background-color: rgba(255, 166, 0, 0.405); /* Light orange background */
     padding: 10px;
 }
 
