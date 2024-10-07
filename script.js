@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
           window.scrollTo({
               top: offsetPosition,
-              behavior: 'smooth'
+              
           });
       } else {
           console.error(`Target element with id "${targetId}" not found`);
@@ -76,18 +76,18 @@ items.forEach((item, i) => {
       item.className = "item active";
 
       // Logic for activating category links
-      if (index === 5) {
-          categoryLinks.forEach(link => link.classList.remove("active"));
-          categoryLinks[1].classList.add("active"); // Activate "Web Development" when index is 4 (5th item)
-      } else if (index >= 0 && index < 4) {
-          categoryLinks.forEach(link => link.classList.remove("active"));
-          categoryLinks[0].classList.add("active"); // Activate "Software Development" for indexes 0 to 3
-      }else if (index >= 10 && index < 17) {
+      if (index >= 0 && index < 5) {
         categoryLinks.forEach(link => link.classList.remove("active"));
-        categoryLinks[2].classList.add("active"); // UI/UX Design Services for indexes 10 to 16
-      } else if (index >= 17) {
+        categoryLinks[0].classList.add("active"); // Activate "Mobile App Development" for indexes 0 to 4
+      } else if (index >= 5 && index < 9) {
         categoryLinks.forEach(link => link.classList.remove("active"));
-        categoryLinks[3].classList.add("active"); // Technical Consulting Services for indexes 17 and above
+        categoryLinks[1].classList.add("active"); // Activate "Web App Development" for indexes 5 to 8
+      } else if (index >= 9 && index < 16) {
+        categoryLinks.forEach(link => link.classList.remove("active"));
+        categoryLinks[2].classList.add("active"); // Activate "UI/UX Design Services" for indexes 9 to 15
+      } else if (index >= 16) {
+        categoryLinks.forEach(link => link.classList.remove("active"));
+        categoryLinks[3].classList.add("active"); // Activate "Technical Consulting Services" for indexes 16 and above
       }
   }
 });

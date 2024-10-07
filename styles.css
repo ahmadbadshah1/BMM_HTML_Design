@@ -34,8 +34,6 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 25px;
-
-
     margin: 0;
     list-style: none;
 }
@@ -74,7 +72,7 @@ li a {
     font-family: poppins;
     color: rgb(130, 113, 113);
     display: flex;
-    align-items: center;
+    align-items: last baseline;
     justify-content: center;
     background: #ffffff;
     position: sticky;
