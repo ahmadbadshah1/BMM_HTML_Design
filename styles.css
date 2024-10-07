@@ -136,8 +136,8 @@ li a {
 
 .title {
     font-size: 2.375rem;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-weight: 800;
     color: #1a093f;
     line-height: 100px;
     letter-spacing: 2px;
@@ -146,7 +146,7 @@ li a {
 
 .text {
     font-size: 23px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
     font-weight: 300;
     color: #535353;
     font-weight: 300;
