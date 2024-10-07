@@ -79,6 +79,7 @@ li a {
     top: 0;
     z-index: 1000;
     border-radius: 1px ;
+    
 }
 
 .carousel {
@@ -192,10 +193,32 @@ li a {
 
 #category-links li a.active {
     color: orange; /* Example color change when active */
-    border: 2px solid gray;
+
     padding: 10px;
-    border-radius: 10px
+
 }
+
+#category-links li a {
+    color: #3b3b3b; /* Default color, adjust as needed */
+    transition: color 0.3s ease, background-color 0.3s ease, padding 0.3s ease;
+    padding: 10px;
+}
+
+#category-links li a.active {
+    color: orange; /* Color when active */
+    background-color: rgba(255, 165, 0, 0.1); /* Light orange background */
+    padding: 10px;
+}
+
+
+
+
+.horizontal-menu ul li img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
 
 
 
